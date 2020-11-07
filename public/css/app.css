@@ -34,6 +34,25 @@ div {
   margin: 0px auto;
 }
 
+/*확진자 정보 로고*/
+#confirmedCase img{
+  display: block;
+  margin: 0px auto;
+}
+
+#confirmedInternal table, td, th{
+  border: 1px solid black;
+}
+
+#confirmedInternal table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#confirmedInternal td, th{
+  text-align: center;
+}
 /*1105추가 시작 */
 
 #topMenu {

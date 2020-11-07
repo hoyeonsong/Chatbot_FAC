@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
   <base href="/">
   <title>Watson Assistant Intermediate App</title>
@@ -15,7 +16,7 @@
 <body>
   <header>
     <div id="facLogo">
-      <a href="../index.html"><img src="../img/WebLogo.png"/></a>
+      <a href="../index.html"><img src="../img/WebLogo.png" /></a>
     </div>
   </header>
   <nav id="topMenu">
@@ -28,8 +29,43 @@
       <li><a class="menuLink" href="#">환경설정</a></li>
     </ul>
   </nav>
-  <div>
-      <p id="greeting">확진자 정보를 알아보세요.</p>
+  <div id="confirmedCase">
+    <img src="../img/confirmed.png">
+  </div>
+  <div id="confirmedInternal">
+    <table>
+      <th colspan="4">확진환자</th>
+      <th colspan="2">격리해제</th>
+      <th colspan="2">격리 중</th>
+      <th colspan="2">사망</th>
+      <tr>
+        <td>누적</td>
+        <td colspan="3">전일대비</td>
+        <td>누적</td>
+        <td>전일대비</td>
+        <td>누적</td>
+        <td>전일대비</td>
+        <td>누적</td>
+        <td>전일대비</td>
+      </tr>
+      <tr>
+        <td rowspan="2">27284</td>
+        <td>소계</td>
+        <td>국내</td>
+        <td>국외</td>
+        <td rowspan="2">변수</td>
+        <td rowspan="2">변수</td>
+        <td rowspan="2">변수</td>
+        <td rowspan="2">변수</td>
+        <td rowspan="2">변수</td>
+        <td rowspan="2">변수</td>
+      </tr>
+      <tr>
+        <td>89</td>
+        <td>72</td>
+        <td>17</td>
+      </tr>
+    </table>
   </div>
   <script src="js/common.js"></script>
   <script src="js/api.js"></script>
